@@ -1,0 +1,33 @@
+Để làm đồ án AI về vấn đề này, bạn có thể chia thành các phần và sử dụng nhiều kỹ thuật AI cùng các mô hình mô phỏng. Dưới đây là một số gợi ý về cách tiếp cận:
+
+1. Xác định mục tiêu và yêu cầu của đồ án
+
+ • Mục tiêu chính của bạn là phát triển hệ thống AI có khả năng đưa ra quyết định tối ưu nhất khi gặp tình huống nguy hiểm.
+ • Các yêu cầu phụ bao gồm khả năng dự đoán hành vi của xe xung quanh, phản ứng nhanh, đảm bảo an toàn tối đa.
+
+2. Nghiên cứu mô hình phát hiện và dự đoán vật cản
+
+ • Sử dụng các mô hình deep learning, như mạng neural tích chập (CNN), để phát hiện vật cản từ hình ảnh camera, radar hoặc lidar.
+ • Các mô hình dự đoán (predictive models) như LSTM hoặc Transformer có thể được dùng để dự đoán di chuyển của các xe xung quanh.
+
+3. Xây dựng mô hình ra quyết định
+
+ • Triển khai thuật toán Deep Reinforcement Learning (DRL): DRL sẽ huấn luyện hệ thống học cách ra quyết định bằng cách mô phỏng các tình huống trên đường.
+ • Bạn có thể chọn các thuật toán như DDPG (Deep Deterministic Policy Gradient) hoặc PPO (Proximal Policy Optimization) để hệ thống tìm ra phương án tối ưu.
+
+4. Sử dụng mô phỏng giao thông
+
+ • Để thử nghiệm, bạn có thể dùng các công cụ mô phỏng như CARLA hoặc SUMO. CARLA là một nền tảng mô phỏng lái xe mã nguồn mở hỗ trợ nhiều loại cảm biến và cho phép bạn thiết kế các tình huống trên đường.
+ • Tích hợp mô hình AI của bạn vào môi trường mô phỏng để huấn luyện và kiểm tra phản ứng của xe tự lái.
+
+5. Tối ưu hóa giải pháp và đánh giá hiệu quả
+
+ • Thực hiện đánh giá thông qua các chỉ số như thời gian phản hồi, độ chính xác trong nhận diện vật cản, và mức độ an toàn.
+ • Tối ưu hóa mô hình và thuật toán ra quyết định dựa trên dữ liệu từ các lần mô phỏng.
+
+6. Viết báo cáo đồ án
+
+ • Giải thích rõ ràng về mô hình AI được chọn, quá trình xây dựng và huấn luyện.
+ • Phân tích kết quả đạt được và so sánh các phương pháp giải quyết khác nếu có. Đề xuất cải tiến cho các vấn đề bạn gặp phải.
+
+Đây sẽ là một đồ án AI khá phức tạp nhưng rất có giá trị, giúp bạn hiểu sâu về cách xe tự lái hoạt động và cách sử dụng AI trong điều kiện thực tế.
